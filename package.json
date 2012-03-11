@@ -1,0 +1,11 @@
+{
+        "name": "Earls-function-mapper",
+        "version" : "0.0.1",
+        "repository": { "type": "git", "url": "git://github.com/Enome/earls-function-mapper" },
+        "description": "Custom mapper for earls",
+        "main": "src",
+        "author": "Geert Pasteels <twitter.com/enome>",
+        "keywords": [ "earls", "mapper" ],
+        "dependencies": { "underscore": "*" },
+        "devDependencies": { "should": "*" }
+}
