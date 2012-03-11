@@ -46,6 +46,19 @@ earls.f( function(){
 
 This mapper works well with Coffee-Script to create concise maps.
 
+``` coffee-script
+url 'root', '/', ->
+  
+  url 'products', ->
+    url 'new'
+    url 'create'
+    url 'edit'
+    url 'update', '/update/:productid'
+    url 'show', '/show/:productid'
+    url 'destroy'
+
+```
+
 ## Run tests
 
 Tests use mocha and should.
