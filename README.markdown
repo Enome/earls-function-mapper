@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Enome/earls-function-mapper.png)](http://travis-ci.org/Enome/earls-function-mapper)
 # Earls Function Mapper
 
 Custom mapper for earls.
